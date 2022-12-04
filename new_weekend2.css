@@ -1,0 +1,367 @@
+:root {
+    --button: #45523E;
+    --button-text: #ffffff;
+    --button-hover: #677A60;
+    --text-color: #000000;
+    --products-bg-color: #DCDCDC;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    line-height: 1.4;
+}
+
+nav {
+    margin: 20px 40px;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: 2fr 0.4fr 0.4fr 0.4fr 0.4fr 2fr;
+    list-style: none;
+    padding: 0;
+    grid-gap: 10px;
+}
+
+nav ul li:not(nav ul li:first-child) {
+    margin-left: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--text-color);
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.main-nav:hover {
+    text-decoration: underline;
+}
+
+nav ul li a h1 {
+    font-size: large;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+
+button {
+    background-color: var(--button);
+    color: var(--button-text);
+    padding: 0.6rem 4rem;
+    text-transform: uppercase;
+    border-radius: 0.3rem;
+    border: 2px solid black;
+    font-size: medium;
+}
+
+button:hover {
+    background-color: var(--button-hover);
+}
+
+main {
+    display: grid;
+    grid-gap: 50px;
+}
+
+.intro {
+    display: grid;
+    grid-gap: 20px;
+    background: url(landing.png);
+    min-height: 550px;
+    background-size: cover;
+    background-position: center;
+    padding: 3%;
+}
+
+.eg {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 7%;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 26px;
+    padding-bottom: 1.2%;
+}
+
+.eg p {
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 1.5%;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.review {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 3%;
+    grid-gap: 25px;
+}
+
+.r {
+    display: grid;
+    grid-gap: 20px;
+}
+
+.r p:nth-child(2) {
+    font-size: 18px;
+}
+
+.r p:nth-child(3) {
+    font-size: 12px;
+}
+
+.r p:nth-child(4) {
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.con {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    padding: 3%;
+    grid-row-gap: 100px;
+}
+
+.con div:nth-child(2n) {
+    margin-left: auto;
+}
+
+.ritual {
+    min-height: 650px;
+    background: url(matcha-ritual.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.ritual h3 {
+    text-align: center;
+    padding: 4% 0;
+}
+
+.ri {
+    width: 70%;
+}
+
+.ri h6 {
+    font-weight: 400;
+    font-size: 21px;
+    text-align: center;
+    padding: 3% 0;
+}
+
+.ri p {
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    padding: 3% 0;
+}
+
+.benefits {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 70px;
+    padding: 0 3%;
+}
+
+.benefits img {
+    margin-left: auto;
+}
+
+.benefits div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.benefits div p:first-child {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: justify;
+    padding-bottom: 7%;
+}
+
+.benefits div p:nth-child(2) {
+    font-weight: 600;
+    font-size: 16px;
+    text-align: justify;
+    padding-bottom: 7%;
+}
+
+.benefits div p:nth-child(3) {
+    font-weight: 400;
+    font-size: 13px;
+    text-align: justify;
+    padding-bottom: 7%;
+}
+
+.products {
+    background-color: var(--products-bg-color);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 3%;
+    grid-column-gap: 50px;
+    align-items: baseline;
+}
+
+.product {
+    display: grid;
+    justify-items: center;
+    grid-row-gap: 20px;
+    text-align: center;
+}
+
+.product h4{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.product p{
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.products div img{
+    padding: 5% 0 8% 0;
+}
+
+.gurantee{
+    display: grid;
+    grid-row-gap: 20px;
+    text-align: center;
+}
+
+.gurantee p:first-child{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.gurantee p:nth-child(2){
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.gurantee p:last-child{
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.certificate{
+    background-color: var(--button-hover);
+    color: var(--button-text);
+}
+
+.tag{
+    text-align: center;
+    padding: 3% 0;
+}
+
+.certificate div{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 10%; 
+    padding: 3%;
+     text-align: justify;
+    align-items: center;
+
+}
+
+.one p{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.two p:first-child{
+    font-weight: bold;
+    font-size: 14px;
+    padding-bottom: 3%;
+}
+
+.two p:last-child{
+    font-size: 12px;
+}
+
+.tagline{
+    text-align: center;
+    padding: 3%;
+}
+
+.newsletter{
+    background-color: var(--products-bg-color);
+}
+.quicklinks{
+    background-color: var(--products-bg-color);
+    justify-content: space-around;
+    padding: 0 25%;
+    font-size: 1.2vw;
+    display: flex;
+    padding-bottom: 3%;
+}
+
+.quicklinks a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.quicklinks a:hover{
+    text-decoration: underline;
+}
+
+.newsletter div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4%;
+}
+
+.newsletter div input{
+    padding: 1%;
+    font-size: 17px;
+    border-radius: 0.5vw;
+    border: 0;
+    width: 30%;
+    margin-right: 2%;
+}
+
+.newsletter {
+    display: grid;
+    grid-gap: 30px;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.newsletter h4{
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.newsletter p{
+    font-size: 14px ;
+}
+
+@media (max-width: 768px) {
+    nav{
+        display: none;
+    }
+
+}

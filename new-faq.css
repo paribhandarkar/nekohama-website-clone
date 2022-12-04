@@ -1,0 +1,241 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f2f0d1;
+    margin: 0;
+    padding: 0;
+    /* background-image: url("faq\ landing.png");
+    background-position-y: -70%;
+    background-repeat: no-repeat; */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 5%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover:not(span a) {
+    text-decoration: underline;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 0.3vw;
+}
+
+nav {
+    display: flex;
+    width: 25%;
+}
+
+nav a {
+    padding: 4%;
+    font-size: 1vw;
+    text-transform: uppercase;
+}
+
+header div a {
+    font-size: 1.1vw;
+    text-transform: uppercase;
+}
+
+.intro{
+    position: relative;
+}
+
+.intro p{
+    position: absolute;
+    right: 5%;
+    top: 29%;
+    width: 25%;
+    text-align: right;
+    color: white;
+    font-size: 1.4vw;
+}
+
+.faq{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+details{
+    padding: 0 2%;
+    width: 70%;
+    margin: auto;
+}
+
+details>summary{
+    background-color: #5d7142;
+    color: white;
+    padding: 1% 3%;
+    font-size: 1.5vw;
+    border-top: 2px solid #f2f0d1;
+    border-bottom: 2px solid #f2f0d1;
+    cursor: pointer;
+
+}
+
+.q1, .q4, .q5{
+    display: flex;
+    padding: 2% 3%;
+    align-items: center;
+    border: 1px solid #5d7142;
+    justify-content: space-between;
+}
+
+.q1 p, .q4 p{
+    width: 60%;
+    text-align: justify;
+    font-size: 1.2vw;
+}
+
+.q2 p, .q5 p, .q5 li{
+    width: 90%;
+    text-align: justify;
+    font-size: 1.2vw;
+}
+
+.q{
+    display: flex;
+    border: 1px solid #5d7142;
+    justify-content: space-around;
+    padding: 2% 3%;
+}
+
+.q h6, .q3 h6{
+    font-size: 1.4vw;
+}
+
+.q2{
+    flex-direction: column;
+    display: flex;
+    padding: 2% 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.q3{
+    background-image: url("ftb.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    display: flex;
+    padding: 3%;
+    color: white;
+    border: 1px solid #5d7142;
+}
+
+.q3 p{
+    width: 40%;
+    text-align: justify;
+    font-size: 1.2vw;
+}
+
+.q4{
+    background-image: url("preparation.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.tagline button{
+    background: #45523E;
+    border-radius: 0.5vw;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 1.4vw;
+    padding: 0.6% 5.5%;
+}
+
+.tagline div:first-child{
+    text-align: center; 
+    font-size: 2vw; 
+    padding: 3%;
+}
+
+.tagline div:last-child{
+    text-align: center; 
+    padding-bottom: 5%;
+}
+
+.newsletter{
+     background-color: #dfdcaa;
+     display: flex;
+     flex-direction: column;
+     padding: 0 5%;
+     padding-bottom: 5%;
+}
+
+.newsletter div:first-child h6{
+    font-size: 2vw; 
+    margin-bottom: 1%;
+}
+
+.newsletter div:first-child p{
+    font-size: 1.2vw; 
+}
+
+.newsletter div:first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 4%;
+}
+
+.newsletter div:nth-child(2){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4%;
+}
+
+.newsletter div:nth-child(2) button{
+    background-color: #45523E;
+    color: white;
+    text-transform: uppercase;
+    padding: 1% 5%;
+    font-size: 1.4vw;
+    border-radius: 0.5vw;
+
+}
+
+.newsletter div:nth-child(2) button:hover{
+    background-color: #677A60;
+}
+
+.newsletter div:nth-child(2) input{
+    padding: 1%;
+    font-size: 1.4vw;
+    border-radius: 0.5vw;
+    width: 30%;
+    margin-right: 2%;
+}
+
+.newsletter div:last-child{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 25%;
+    font-size: 1.2vw; 
+
+}
+
+button:hover{
+    background-color: #677A60;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,72 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+}
+
+body {
+    background-image: url("explore.png");
+    background-repeat: no-repeat;
+}
+
+.main_logo {
+    padding-right: 252px;
+    padding-left: 39px;
+    padding-top: 22px;
+    font-weight: 400;
+    font-size: 21px;
+    text-decoration: none;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-top: 28px;
+    color: white;
+}
+
+div a:not(.main_logo) {
+    padding-top: 28px;
+    padding-right: 46px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+div a:last-child {
+    padding-left: 269px;
+}
+
+div a:not(.main_logo):hover {
+    text-decoration: underline;
+}
+
+p {
+    padding-left: 5px;
+    padding-top: 270px;
+    font-weight: 400;
+    font-size: 26px;
+    color: #FFFFFF;
+}
+
+button{
+    padding: 13px 38px;
+    width: 248px;
+    height: 48px;
+    left: 516px;
+    top: 1070px;
+    background: #45523E;
+    border-radius: 7px;
+}
+button h6 {
+    width: 172px;
+    height: 22px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+button:hover{
+    background-color: #677A60;
+}

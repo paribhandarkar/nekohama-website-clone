@@ -1,0 +1,317 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    background-color: #eae7bd;
+}
+
+details>summary {
+    padding: 10px 107px;
+    background-color: #2B430C;
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    border: 2px solid #D6D18E;
+}
+
+/* details>section {
+    border: 1px solid black;
+    font-weight: 400;
+    font-size: 13px;
+    padding-left: 107px;
+}  */
+
+body {
+    background-image: url("faq\ landing.png");
+    background-repeat: no-repeat;
+    background-position-y: 55px;
+}
+
+.main_logo {
+    padding-right: 252px;
+    padding-left: 39px;
+    padding-top: 22px;
+    font-weight: 400;
+    font-size: 21px;
+    text-decoration: none;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 28px;
+}
+
+div a:not(.main_logo) {
+    padding-top: 28px;
+    padding-right: 46px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+div a:last-child {
+    padding-left: 269px;
+}
+
+div a:not(.main_logo):hover {
+    text-decoration: underline;
+}
+
+#intro {
+    color: white;
+    text-align: center;
+    width: 360px;
+    font-weight: 400;
+    font-size: 22px;
+    padding-left: 920px;
+    padding-top: 168px;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 30px;
+    padding-top: 105px;
+    padding-left: 608px;
+}
+
+#what1 {
+    padding-left: 107px;
+    width: 584px;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 13px;
+    padding-top: 161px;
+}
+
+#q1 {
+    background-image: url("what\ is\ matcha.png");
+    background-repeat: no-repeat;
+    background-position-y: 61px;
+    background-position-x: 763px;
+}
+
+img[alt='what'] {
+    padding-left: 763px;
+}
+
+#what2 {
+    padding-top: 160px;
+}
+
+#q2 img {
+    padding-left: 403px;
+    padding-top: 65px;
+}
+
+#q2 h5 {
+    padding-left: 517px;
+    padding-top: 44px;
+    text-align: center;
+    width: 247px;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+#q2 p {
+    width: 474px;
+    font-weight: 400;
+    font-size: 13px;
+    padding-left: 404px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#q3 {
+    background-image: url("ftb.webp");
+    background-repeat: no-repeat;
+}
+
+#q3 h5 {
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    width: 521px;
+    padding-left: 117px;
+    padding-top: 131px;
+}
+
+#q3 p {
+    padding-left: 117px;
+    color: white;
+    font-weight: 500;
+    font-size: 13px;
+    width: 474px;
+    padding-top: 25px;
+    margin: 0px;
+}
+
+#history>p{
+    font-weight: 400;
+    font-size: 13px;
+    padding-left: 107px;
+    width: 474px;
+}
+
+#preparation>p{
+    font-weight: 400;
+    font-size: 13px;
+    padding-left: 107px;
+    width: 474px;
+}
+
+#shipping>p{
+    font-weight: 400;
+    font-size: 13px;
+    padding-left: 107px;
+    width: 474px;
+    margin-top: 15px;
+}
+
+td>p{
+    font-size: 14px;
+}
+td>ul{
+    font-size: 13px;
+}
+
+table{
+    padding: 30px;
+}
+
+td{
+    padding: 40px;
+}
+
+#preparation{
+    background-image: url("preparation.jpg");
+    background-position-x: center;
+}
+
+#tagline {
+    position: absolute;
+    width: 371px;
+    height: 37px;
+    left: 455px;
+    top: 4040px;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+#tagline button {
+    padding: 13px 63px;
+    position: absolute;
+    width: 242px;
+    height: 48px;
+    left: 64px;
+    top: 99px;
+    background: #45523E;
+    border-radius: 7px;
+}
+
+#tagline button h6 {
+    width: 116px;
+    height: 22px;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+#newsletter {
+    position: absolute;
+    width: 1280px;
+    height: 482px;
+    left: 0px;
+    top: 4199px;
+    background: #D6D18E;
+}
+
+#newsletter p:first-child {
+    position: absolute;
+    left: 530px;
+    top: 39px;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+#newsletter p:nth-child(2) {
+    position: absolute;
+    left: 297px;
+    top: 132px;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+#newsletter p:last-child {
+    position: absolute;
+    left: 384px;
+    top: 344px;
+    font-weight: 400;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+input[type=email] {
+    width: 462px;
+    height: 44px;
+    padding-left: 8px;
+    font-size: 1.6rem;
+    color: #000000;
+}
+
+input[placeholder='Email Address'] {
+    position: absolute;
+    width: 470px;
+    height: 44px;
+    left: 272px;
+    top: 218px;
+    font-weight: 400;
+    font-size: 27px;
+
+}
+
+/* input[type=submit] {
+    background-color: #45523E;
+    color: white;
+    padding: 13px 63px;
+    border-radius: 7px;
+    width: 234px;
+    height: 48px;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+} */
+
+::placeholder {
+    color: black;
+    opacity: 0.8;
+}
+
+#newsletter button {
+    position: absolute;
+    padding: 13px 63px;
+    width: 234px;
+    height: 48px;
+    left: 782px;
+    top: 215px;
+    background: #45523E;
+    border-radius: 7px;
+}
+
+#newsletter button h6 {
+    width: 108px;
+    height: 22px;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+#newsletter button:hover{
+    background-color: #677A60;
+}
+#tagline button:hover{
+    background-color: #677A60;
+}

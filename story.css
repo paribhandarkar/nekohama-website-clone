@@ -1,0 +1,162 @@
+:root {
+    --button: #45523E;
+    --button-text: #ffffff;
+    --button-hover: #677A60;
+    --text-color: #000000;
+    --products-bg-color: #DCDCDC;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    line-height: 1.4;
+}
+
+nav {
+    margin: 20px 40px;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: 2fr 0.4fr 0.4fr 0.4fr 0.4fr 2fr;
+    list-style: none;
+    padding: 0;
+    grid-gap: 10px;
+}
+
+nav ul li:not(nav ul li:first-child) {
+    margin-left: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--text-color);
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.main-nav:hover {
+    text-decoration: underline;
+}
+
+nav ul li a h1 {
+    font-size: large;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+button {
+    background-color: var(--button);
+    color: var(--button-text);
+    padding: 0.6rem 4rem;
+    text-transform: uppercase;
+    border-radius: 0.3rem;
+    border: 2px solid black;
+    font-size: medium;
+}
+
+button:hover {
+    background-color: var(--button-hover);
+}
+
+main{
+    display: grid;
+    grid-gap: 20px;
+    text-align: left;
+    padding: 3% 0;
+    width: 50%;
+    margin: auto;
+}
+
+h2{
+    text-align: center;
+    padding: 3%;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.h1{
+    font-size: x-large;
+    padding: 3% 0;
+}
+
+.h2{
+    font-size: 16px;
+}
+
+
+
+
+img{
+    width: 50%;
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+}
+
+footer{
+    padding-top: 5%;
+}
+
+.newsletter{
+    background-color: var(--products-bg-color);
+}
+.quicklinks{
+    background-color: var(--products-bg-color);
+    justify-content: space-around;
+    padding: 0 25%;
+    font-size: 1.2vw;
+    display: flex;
+    padding-bottom: 3%;
+}
+
+.quicklinks a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.quicklinks a:hover{
+    text-decoration: underline;
+}
+
+.newsletter div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4%;
+}
+
+.newsletter div input{
+    padding: 1%;
+    font-size: 17px;
+    border-radius: 0.5vw;
+    border: 0;
+    width: 30%;
+    margin-right: 2%;
+}
+
+.newsletter {
+    display: grid;
+    grid-gap: 30px;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.newsletter h4{
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.newsletter p{
+    font-size: 14px ;
+}
+
+

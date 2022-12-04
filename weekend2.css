@@ -1,0 +1,702 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+}
+
+nav>a {
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    height: 16px;
+    top: 28px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a:first-child {
+    left: 472px;
+    width: 39px;
+}
+
+nav a:nth-child(2) {
+    width: 58px;
+    left: 557px;
+}
+
+nav a:nth-child(3) {
+    width: 44px;
+    left: 661px;
+}
+
+nav a:nth-last-child(2) {
+    width: 58px;
+    left: 751px;
+}
+
+#navbar img:only-of-type {
+    left: 1205px;
+    top: 17px;
+    position: absolute;
+}
+
+a[href='#home'] {
+    position: absolute;
+    width: 181px;
+    height: 26px;
+    left: 39px;
+    top: 22px;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 26px;
+    text-decoration: none;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+a[href='#account'] {
+    position: absolute;
+    width: 72px;
+    height: 17px;
+    left: 1088px;
+    top: 25px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+}
+
+img[alt='landing image'] {
+    position: relative;
+    width: 1280px;
+    height: 649px;
+    left: 0px;
+    top: 75px;
+}
+
+#text_on_top_of_image h5 {
+    position: absolute;
+    left: 71px;
+    top: 437px;
+    font-weight: 400;
+    font-size: 26px;
+    color: #000000;
+    margin: 0px;
+}
+
+#text_on_top_of_image button {
+    padding: 13px 63px;
+    position: absolute;
+    width: 183px;
+    height: 48px;
+    left: 71px;
+    top: 532px;
+    background: #45523E;
+    border-radius: 7px;
+}
+
+#text_on_top_of_image h6 {
+    width: 57px;
+    height: 22px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+#text_on_top_of_image h4 {
+    position: absolute;
+    margin: 0px;
+    left: 71px;
+    top: 486px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+}
+
+#reviews h3 {
+    position: absolute;
+    height: 37px;
+    left: 71px;
+    top: 723px;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.review p:first-child {
+    position: absolute;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    height: 44px;
+    top: 867px;
+}
+
+.review p:nth-child(2) {
+    position: absolute;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 23px;
+    height: 46px;
+    top: 935px;
+}
+
+.review p:nth-child(4n) {
+    position: absolute;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: uppercase;
+    height: 16px;
+    top: 1002px;
+}
+
+.review img {
+    position: absolute;
+    width: 120px;
+    height: 24px;
+    top: 814px;
+}
+
+#review1 p:first-child {
+    left: 71px;
+    width: 180px;
+}
+
+#review2 p:first-child {
+    left: 280px;
+    width: 180px;
+}
+
+#review3 p:first-child {
+    width: 207px;
+    left: 517px;
+}
+
+#review4 p:first-child {
+    width: 197px;
+    left: 760px;
+}
+
+#review5 p:first-child {
+    width: 204px;
+    left: 1011px;
+}
+
+#review1 p:nth-child(2n) {
+    left: 71px;
+    width: 182px;
+}
+
+#review2 p:nth-child(2n) {
+    left: 280px;
+    width: 210px;
+}
+
+#review3 p:nth-child(2n) {
+    width: 216px;
+    left: 517px;
+}
+
+#review4 p:nth-child(2n) {
+    width: 224px;
+    left: 760px;
+}
+
+#review5 p:nth-child(2n) {
+    left: 1011px;
+}
+
+#review1 img {
+    left: 71px;
+}
+
+#review2 img {
+    left: 280px;
+}
+
+#review3 img {
+    left: 517px;
+}
+
+#review4 img {
+    left: 760px;
+}
+
+#review5 img {
+    left: 1011px;
+}
+
+#reviews button {
+    padding: 13px 38px;
+    position: absolute;
+    width: 248px;
+    height: 48px;
+    left: 516px;
+    top: 1070px;
+    background: #45523E;
+    border-radius: 7px;
+}
+
+#reviews h6 {
+    width: 172px;
+    height: 22px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+img[alt='holding matcha cup'] {
+    position: absolute;
+    left: 0px;
+    top: 1158px;
+}
+
+#ritual h3 {
+    position: absolute;
+    left: 414px;
+    top: 1202px;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+#ritual h6 {
+    position: absolute;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    margin: 0px;
+    width: 322px;
+    line-height: 26px;
+}
+
+#ritual p {
+    position: absolute;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    width: 397px;
+}
+
+#ritual p:nth-child(4) {
+    left: 47px;
+    top: 1382px;
+}
+
+#ritual p:nth-child(6) {
+    left: 848px;
+    top: 1382px;
+}
+
+#ritual p:nth-child(8) {
+    left: 47px;
+    top: 1611px;
+}
+
+#ritual p:nth-child(10) {
+    left: 848px;
+    top: 1611px;
+}
+
+h6[class$='top'] {
+    top: 1333px;
+}
+
+h6[class$='bottom'] {
+    top: 1562px;
+}
+
+h6[class^='left'] {
+    left: 84px;
+}
+
+h6[class^='right'] {
+    left: 883px;
+}
+
+#advantages img {
+    position: absolute;
+    left: 712px;
+    top: 1942px;
+}
+
+#advantages p:nth-child(2) {
+    position: absolute;
+    left: 64px;
+    top: 2145px;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: justify;
+}
+
+#advantages p:nth-child(3) {
+    position: absolute;
+    width: 573px;
+    left: 64px;
+    top: 2220px;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: justify;
+}
+
+#advantages p:nth-last-child(2) {
+    position: absolute;
+    width: 611px;
+    left: 64px;
+    top: 2312px;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: justify;
+}
+
+#advantages button {
+    padding: 13px 63px;
+    position: absolute;
+    width: 242px;
+    height: 48px;
+    left: 64px;
+    top: 2417px;
+    background: #45523E;
+    border-radius: 7px;
+}
+
+#advantages button h6 {
+    width: 116px;
+    height: 22px;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+#products {
+    background-color: #DCDCDC;
+    position: absolute;
+    width: 1280px;
+    height: 780px;
+    left: 0px;
+    top: 2679px;
+}
+
+img[alt='ceremonial matcha'] {
+    position: absolute;
+    left: 95px;
+    top: 75px;
+}
+
+.front_image{
+    position: absolute;
+    left: 95px;
+    top: 76px;
+}
+
+.ceremonial_matcha:hover {
+    display: none;
+    transition: ease-in-out;
+}
+
+.front_image2{
+    position: absolute;
+    left: 520px;
+    top: 125px;
+}
+
+.matcha_kit:hover {
+    display: none;
+    transition: ease-in-out;
+}
+
+.front_image3{
+    position: absolute;
+    left: 953px;
+    top: 86px;
+}
+
+.matcha_chocolate:hover {
+    display: none;
+    transition: ease-in-out;
+}
+
+p[class$='heading'] {
+    position: absolute;
+    top: 514px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+
+p[class$='description'] {
+    position: absolute;
+    width: 290px;
+    top: 566px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
+
+img[alt='matcha kit'] {
+    position: absolute;
+    left: 485px;
+    top: 112px;
+}
+
+img[alt='matcha chocolate'] {
+    position: absolute;
+    left: 953px;
+    top: 76px;
+}
+
+#products button {
+    padding: 13px 63px;
+    position: absolute;
+    width: 180px;
+    height: 48px;
+    background: #45523E;
+    border-radius: 7px;
+    top: 648px;
+}
+
+#products button h6 {
+    width: 54px;
+    height: 22px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+#gurantee p:first-child {
+    position: absolute;
+    left: 425px;
+    top: 3499px;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+#gurantee p:nth-child(2) {
+    position: absolute;
+    left: 313px;
+    top: 3544px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#gurantee p:last-child {
+    position: absolute;
+    left: 497px;
+    top: 3584px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+#certificate {
+    position: absolute;
+    width: 1280px;
+    height: 370px;
+    left: 0px;
+    top: 3639px;
+    background: #677A60;
+}
+
+#certificate p:first-child {
+    position: absolute;
+    width: 620px;
+    height: 160px;
+    left: 65px;
+    top: 56px;
+    font-weight: 500;
+    font-size: 21px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+#certificate p:nth-child(2) {
+    position: absolute;
+    width: 245px;
+    height: 32px;
+    left: 838.95px;
+    top: 56px;
+    font-weight: 500;
+    font-size: 21px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+#certificate p:nth-child(3) {
+    position: absolute;
+    width: 423px;
+    height: 105px;
+    left: 839px;
+    top: 98px;
+    font-weight: 400;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+
+#certificate p:last-child {
+    position: absolute;
+    width: 857px;
+    height: 27px;
+    left: 212px;
+    top: 277px;
+    font-weight: 500;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+#tagline {
+    position: absolute;
+    width: 371px;
+    height: 37px;
+    left: 455px;
+    top: 4040px;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+#tagline button {
+    padding: 13px 63px;
+    position: absolute;
+    width: 242px;
+    height: 48px;
+    left: 64px;
+    top: 99px;
+    background: #45523E;
+    border-radius: 7px;
+}
+
+#tagline button h6 {
+    width: 116px;
+    height: 22px;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+#newsletter {
+    position: absolute;
+    width: 1280px;
+    height: 482px;
+    left: 0px;
+    top: 4199px;
+    background: #DCDCDC;
+}
+
+#newsletter p:first-child {
+    position: absolute;
+    left: 530px;
+    top: 39px;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+#newsletter p:nth-child(2) {
+    position: absolute;
+    left: 297px;
+    top: 132px;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+#newsletter p:last-child {
+    position: absolute;
+    left: 384px;
+    top: 344px;
+    font-weight: 400;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+input[type=email] {
+    width: 462px;
+    height: 44px;
+    padding-left: 8px;
+    font-size: 1.6rem;
+    color: #000000;
+}
+
+input[placeholder='Email Address'] {
+    position: absolute;
+    width: 470px;
+    height: 44px;
+    left: 272px;
+    top: 218px;
+    font-weight: 400;
+    font-size: 27px;
+
+}
+
+/* input[type=submit] {
+    background-color: #45523E;
+    color: white;
+    padding: 13px 63px;
+    border-radius: 7px;
+    width: 234px;
+    height: 48px;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+} */
+
+::placeholder {
+    color: black;
+    opacity: 0.8;
+}
+
+#newsletter button {
+    position: absolute;
+    padding: 13px 63px;
+    width: 234px;
+    height: 48px;
+    left: 782px;
+    top: 215px;
+    background: #45523E;
+    border-radius: 7px;
+}
+
+#newsletter button h6 {
+    width: 108px;
+    height: 22px;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+#newsletter button:hover{
+    background-color: #677A60;
+}
+#tagline button:hover{
+    background-color: #677A60;
+}
+#products button:hover{
+    background-color: #677A60;
+}
+#advantages button:hover{
+    background-color: #677A60;
+}
+#text_on_top_of_image button:hover{
+    background-color: #677A60;
+}
+#reviews button:hover{
+    background-color: #677A60;
+}
